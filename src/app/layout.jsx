@@ -1,6 +1,7 @@
 import { Inter, Raleway } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 
 const inter = Raleway({ subsets: ["latin"] });
@@ -20,6 +21,7 @@ export default function RootLayout({ children }) {
         </div>
         {children}
         </body>
+        <Footer />
     </html>
   );
 }

@@ -5,6 +5,9 @@ import Searchbar from "./components/Searchbar";
 import Services from "./components/Services";
 import Meetourteam from "./components/Meetourteam";
 import Reviews from "./components/Reviews";
+import Partners from "./components/Partners";
+import Projects from "./components/Projects";
+import Keypoints from "./components/Keypoints";
 
 export default function Home() {
   return (
@@ -15,6 +18,9 @@ export default function Home() {
       <Services />
       <Meetourteam />
       <Reviews />
+      <Partners />
+      <Projects />
+      <Keypoints />
       
     </div>
   );

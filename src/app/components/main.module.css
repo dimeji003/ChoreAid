@@ -1,0 +1,7 @@
+.keypoints{
+    background-image: url(/keypoints.jpeg);
+    background-size: cover;
+    height: 70vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+}

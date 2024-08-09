@@ -9,11 +9,11 @@ export default function Meetourteam() {
     <div className='my-16'>
         <div className='w-[40%] m-auto py-7 text-center flex flex-col gap-5'>
            <h1 className='text-2xl font-extrabold'>Meet Our Team</h1>
-           <p>ChoreAid s packed with core professionals who are dedicated to providing  excellent results to meeting customers needs</p>
+           <p>ChoreAid is packed with core professionals who are dedicated to providing  excellent results to meeting customers needs</p>
 
         </div>
 
-        <div className='flex flex-row w-[70%] m-auto md:gap-28 py-7'>
+        <div className='flex md:flex-row flex-col gap-9 w-[70%] m-auto md:gap-28 py-7'>
             <div className='flex flex-col gap-6 bg-gray-100 border border-gray-300 p-5'>
                 <div><Image src='/faith.jpeg' width={100} height={100} className=''/> </div>
                 <h2 className='font-bold'>Faith Igwe</h2>
