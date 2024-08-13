@@ -1,0 +1,23 @@
+@media screen and (max-width: 1024px){
+    .home{
+        background-image: url(/serviceshome.jpeg);
+        background-size: cover;
+        height: 30vh;
+    }
+}
+@media screen and (min-width: 1025px){
+    .home{
+        background-image: url(/serviceshome.jpeg);
+        height: 60vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+}
+@media screen and (max-width: 480px){
+    .home{
+        background-image: url(/serviceshome.jpeg);
+        background-size: cover;
+        height: 30vh;
+    }
+}

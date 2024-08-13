@@ -7,7 +7,7 @@ import { HiArrowLongRight } from "react-icons/hi2";
 export default function Meetourteam() {
   return (
     <div className='my-16'>
-        <div className='w-[40%] m-auto py-7 text-center flex flex-col gap-5'>
+        <div className='md:w-[40%] m-auto py-7 text-center flex flex-col gap-5'>
            <h1 className='text-2xl font-extrabold'>Meet Our Team</h1>
            <p>ChoreAid is packed with core professionals who are dedicated to providing  excellent results to meeting customers needs</p>
 
@@ -37,18 +37,18 @@ export default function Meetourteam() {
             </div>
         </div>
         
-        <Link href='/'><div  className='bg-sky-600 flex flex-row items-center  justify-between w-[10%] m-auto rounded-2xl px-3 p-1 text-white text-sm mt-8'>See More <HiArrowLongRight /></div></Link>
+        <Link href='/'><div  className='bg-sky-600 flex flex-row items-center  justify-between md:w-[10%] w-[30%] m-auto rounded-2xl px-3 p-1 text-white text-sm mt-8'>See More <HiArrowLongRight /></div></Link>
 
-        <div className='flex flex-row gap-11 justify-center w-[70%] m-auto text-3xl font-semibold py-12'>
-            <div className='flex flex-col gap-2 text-center border border-blue-400 bg-sky-50 py-4 px-24 rounded-xl'>
+        <div className='flex flex-row md:gap-11 gap-6 justify-center w-[70%] m-auto md:text-3xl font-semibold py-12'>
+            <div className='flex flex-col md:gap-2 text-center border border-blue-400 bg-sky-50 md:py-4 md:px-24 px-5 rounded-xl'>
                 <p>100 +</p>
                 <p>Workers</p>
             </div>
-            <div className='flex flex-col gap-2 text-center border border-blue-400 bg-sky-50 py-4 px-24 rounded-xl'>
+            <div className='flex flex-col md:gap-2 text-center border border-blue-400 bg-sky-50 md:py-4 md:px-24 px-5 rounded-xl'>
             <p>300 +</p>
             <p>Clients</p>
             </div>
-            <div className='flex flex-col gap-2 text-center border border-blue-400 bg-sky-50 py-4 px-24 rounded-xl'>
+            <div className='flex flex-col md:gap-2 text-center border border-blue-400 bg-sky-50 md:py-4 md:px-24 px-5 rounded-xl'>
             <p>200 +</p>
             <p>Reviews</p>
             </div>

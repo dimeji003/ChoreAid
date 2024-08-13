@@ -17,7 +17,7 @@ export default function Services() {
             <p>We render the following domestic services to our clients</p>
         </div>
 
-        <div className='flex flex-col gap-7'>
+        <div className='flex flex-col md:gap-7 gap-20'>
             <div className='flex md:flex-row flex-col justify-between items-center'>
                 <div className='md:w-[45%] w-[100%]'><Image src='/cleaning.jpeg' width={300} height={300} className='w-[100%]'/> </div>
                 <div className='md:w-[45%] flex flex-col py-5 md:py-0 gap-5'>
@@ -32,7 +32,7 @@ export default function Services() {
                     </Link>
                 </div>
             </div>
-            <div className='flex md:flex-row flex-col justify-between items-center'>
+            <div className='flex md:flex-row flex-col-reverse justify-between items-center'>
                 <div className='md:w-[45%] flex flex-col gap-5 py-5 md:py-0'>
                     <h2 className='text-xl font-bold border-b-2 border-black w-24'>Cooking</h2>
                     <p>ChoreAid offers a flexible cooking service where customers provide all necessary ingredients, and our professional cooks provide the labor and expertise to prepare the meals.</p>

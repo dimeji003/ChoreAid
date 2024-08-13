@@ -16,9 +16,9 @@ export default function RootLayout({ children }) {
     <html lang="en"  className="bg-white">
       
       <body className= {` ${inter.className}`}>
-        <div >
+        
           <Navbar />
-        </div>
+       
         {children}
         </body>
         <Footer />
