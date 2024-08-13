@@ -13,6 +13,13 @@
         background-size: cover;
         
     }
+    .keypoints{
+        background-image: url(/keypoints2.jpeg);
+        height: 60vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
 }
 @media screen and (max-width: 480px){
     .home{

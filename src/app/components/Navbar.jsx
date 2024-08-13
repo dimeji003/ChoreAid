@@ -19,7 +19,7 @@ export default function Navbar() {
         <div className='flex items-center h-[100vh] lg:h-10'>
         <div className={`flex text-black lg:flex-row flex-col h-[100vh] text-sm md:gap-11 gap-14 justify-center absolute z-50 bg-white sm:bg-transparent left-0 right-0 bottom-0   md:relative  top-0 items-center ease-in-out duration-500 transition ${showNav ? "translate-x-0" : "-translate-x-full lg:translate-x-0"}`}>
             
-            <p>Home</p>
+            <Link href='/'><p>Home</p></Link>
             <Link href='/about'><p>Services</p></Link>
             <p>Help Center</p>
             <p>Meet our team</p>
