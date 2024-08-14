@@ -9,17 +9,18 @@ export default function page() {
   return (
     <div>
     <div className={styles.home}>
-       <div className='relative top-96'><Searchbar /></div> 
+       <div className='relative md:top-96 md:absolute bottom-3 w-[80%] h-12 m-auto  sm:top-56 hidden md:flex'><Searchbar /></div> 
 
     </div>
 
    
-        <h2 className='text-center font-extrabold pt-20 text-2xl'>We render the following services..</h2>
+        <h2 className='text-center md:w-[100%] w-[65%] m-auto font-extrabold pt-20 text-2xl pb-7'>We render the following services..</h2>
         <div className='w-[75%] m-auto'>
-            <div className='flex md:flex-row flex-col items-center py-9'>
+        <h2 className='text-xl font-bold border-b-2 border-black w-24 flex md:hidden'>Cleaning</h2>
+            <div className='flex md:flex-row flex-col items-center md:py-9 pt-5  gap-5'>
                 <div className='w-[100%]'><Image src='/cleaning.jpeg' width={450} height={100} /></div>
                 <div className='w-[100%] flex flex-col gap-5'>
-                    <h2 className='text-xl font-bold border-b-2 border-black w-24'>Cleaning</h2>
+                    <h2 className='text-xl font-bold border-b-2 border-black w-24 hidden md:flex'>Cleaning</h2>
                     <p>ChoreAid offers comprehensive cleaning services tailored to meet the diverse needs of individuals and families. The cleaning service is divided into two distinct sections to provide flexibility and convenience for our customers:</p>
                     <p className='font-bold'>1. Professional Cleaning Services</p>
                     <p className='font-bold'>2. AssistKlin Cleaning Services</p>
@@ -52,7 +53,7 @@ export default function page() {
             <p className='pt-7 font-bold'>i. General Cleaning</p>
             <p className='font-bold'>ii. Fumigation</p>
 
-            <div className='flex md:flex-row flex-col items-center py-14'>
+            <div className='flex md:flex-row flex-col gap-8 items-center py-14'>
                 <div className='w-[100%]'><Image src='/cookingservice.jpeg' width={450} height={100} /></div>
                 <div className='w-[100%] flex flex-col gap-5'>
                     <h2 className='text-xl font-bold border-b-2 border-black w-24'>Cooking</h2>
@@ -99,7 +100,7 @@ export default function page() {
                 </div>
             </div>
 
-            <div className='flex md:flex-row flex-col items-center py-14'>
+            <div className='flex md:flex-row flex-col gap-8 items-center py-14'>
                 <div className='w-[100%]'><Image src='/cookingservice.jpeg' width={450} height={100} /></div>
                 <div className='w-[100%] flex flex-col gap-5'>
                     <h2 className='text-xl font-bold border-b-2 border-black w-24'>Cooking</h2>
@@ -110,7 +111,7 @@ export default function page() {
                 
             </div>
 
-            <div className='flex md:flex-row flex-col items-center py-14'>
+            <div className='flex md:flex-row flex-col gap-8 items-center py-14'>
                 <div className='w-[100%]'><Image src='/cookingservice.jpeg' width={450} height={100} /></div>
                 <div className='w-[100%] flex flex-col gap-5'>
                     <h2 className='text-xl font-bold border-b-2 border-black w-24'>Cooking</h2>
@@ -121,28 +122,43 @@ export default function page() {
                 
             </div>
 
-            <h2 className='font-extrabold text-2xl pt-12'>Frequently asked questions?</h2>
+            <div className='h-[80vh] flex flex-col items-center gap-6 md:gap-0'>
+            <h2 className='font-extrabold text-2xl md:pt-12 text-center md:text-left '>Frequently asked questions?</h2>
             <p>Most often questions that users ask.</p>
-            <div className='flex flex-row justify-between items-center gap-14 h-56 md:my-14'>
-                <div className='flex flex-col items-center text-center w-[50%] gap-4 bg-sky-100 p-2 py-6'>
-                    <div className='text-3xl  text-sky-600'><BsQuestionSquareFill /></div>
+            <div className='flex md:flex-row flex-col justify-between items-center gap-14 h-56 md:my-14'>
+                <div className='flex flex-col items-center text-center md:w-[50%] gap-4 bg-sky-100 p-2 py-6'>
+                    <div className='text-5xl  text-sky-600'><BsQuestionSquareFill /></div>
                     <h2>You have a different question?</h2>
                     <p>Reach out to us with your question and our support team will give you an answer as soon as possible.</p>
-                    <p className='p-1 px-4 rounded-3xl bg-sky-600 w-[46%] text-center text-white'>Connect support team</p>
+                    <p className='p-1 px-4 rounded-3xl bg-sky-600 md:w-[46%] text-center text-white'>Connect support team</p>
 
                 </div>
-                <div className='w-[50%] flex flex-col gap-5'>
-                    <div className='flex flex-row items-center justify-between'><p className='flex flex-row'><p>1.</p>How do I figure out your premium workers?</p><div className='rounded-full border border-black px-2'>-</div></div>
-                    <div className='flex flex-row items-center gap-11 justify-between'><p className='flex flex-row'><p>2.</p>How do I go about my bookings?</p><div className='rounded-full border border-black px-2'>-</div></div>
-                    <div className='flex flex-row items-center gap-11 justify-between'><p className='flex flex-row'><p>3.</p>Are your staffs trained professionally?</p><div className='rounded-full border border-black px-2'>+</div></div>
-                    <div className='flex flex-row items-center gap-11 justify-between'><p className='flex flex-row'><p>4.</p>Is ChoreAid available in all states in the country?</p><div className='rounded-full border border-black px-2'>+</div></div>
+                <div className='md:w-[50%] flex flex-col gap-5'>
+                    <div className='flex flex-row items-center justify-between'><p className='flex flex-row'><p>1. </p>How do I figure out your premium workers?</p><div className='rounded-full border border-black px-2'>-</div></div>
+                    <div className='flex flex-row items-center gap-11 justify-between'><p className='flex flex-row'><p>2. </p>How do I go about my bookings?</p><div className='rounded-full border border-black px-2'>-</div></div>
+                    <div className='flex flex-row items-center gap-11 justify-between'><p className='flex flex-row'><p>3. </p>Are your staffs trained professionally?</p><div className='rounded-full border border-black px-2'>+</div></div>
+                    <div className='flex flex-row items-center gap-11 justify-between'><p className='flex flex-row'><p>4. </p>Is ChoreAid available in all states in the country?</p><div className='rounded-full border border-black px-2'>+</div></div>
                 </div>
             </div>
+
+            </div>
+
 
             
         </div>
 
-        <div className={`pt-10  ${styles.keypoints}`}>
+        <div className={`md:pt-10 flex flex-col items-center justify-center  ${styles.keypoints}`}>
+            <div className='flex flex-col items-center gap-14 text-4xl text-sky-700 font-extrabold  '>
+                <h2>Keypoints</h2>
+                <div>
+                    <ul className='flex flex-col gap-7'>
+                        <li>1. Trusted workers</li>
+                        <li>2. Reliable Support </li>
+                        <li>3. Flexible Booking</li>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
 
         </div>
    

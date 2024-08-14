@@ -2,7 +2,15 @@
     .home{
         background-image: url(/serviceshome.jpeg);
         background-size: cover;
-        height: 30vh;
+        height: 60vh;
+        position: relative;
+    }
+    .keypoints{
+        background-image: url(/keypoints2.jpeg);
+        height: 60vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+
     }
 }
 @media screen and (min-width: 1025px){
@@ -15,7 +23,7 @@
     }
     .keypoints{
         background-image: url(/keypoints2.jpeg);
-        height: 60vh;
+        height: 65vh;
         background-repeat: no-repeat;
         background-size: cover;
 
@@ -25,6 +33,6 @@
     .home{
         background-image: url(/serviceshome.jpeg);
         background-size: cover;
-        height: 30vh;
+        height: 40vh;
     }
 }

@@ -7,14 +7,14 @@ import { HiArrowLongRight } from "react-icons/hi2";
 export default function Meetourteam() {
   return (
     <div className='my-16'>
-        <div className='md:w-[40%] m-auto py-7 text-center flex flex-col gap-5'>
+        <div className='lg:w-[40%] m-auto py-7 text-center flex flex-col gap-5'>
            <h1 className='text-2xl font-extrabold'>Meet Our Team</h1>
            <p>ChoreAid is packed with core professionals who are dedicated to providing  excellent results to meeting customers needs</p>
 
         </div>
 
-        <div className='flex md:flex-row flex-col gap-9 w-[70%] m-auto md:gap-28 py-7'>
-            <div className='flex flex-col gap-6 bg-gray-100 border border-gray-300 p-5'>
+        <div className='flex lg:flex-row flex-col gap-9 w-[70%] m-auto lg:gap-28 py-7'>
+            <div className='flex flex-col gap-6 bg-gray-100 border border-gray-300 p-5 place-content-center'>
                 <div><Image src='/faith.jpeg' width={100} height={100} className=''/> </div>
                 <h2 className='font-bold'>Faith Igwe</h2>
                 <p>A professional babysitter, dedicated to work.</p>
